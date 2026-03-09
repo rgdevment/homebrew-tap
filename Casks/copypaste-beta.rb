@@ -1,6 +1,6 @@
   cask "copypaste-beta" do
     version "2.0.0-RC.1"
-    sha256 "7c7a656248f42e25f67d4bf03c9d423a30f75e7433121f86b35b4efb53f00448"
+    sha256 "c378d05ecfdf2e2a10e83d21150d19244165aa84522e05fe81dcf4d9d85b8aba"
 
     url "https://github.com/rgdevment/CopyPaste/releases/download/v2.0.0-RC.1/CopyPaste_2.0.0-RC.1_arm64.dmg"
     name "CopyPaste"
