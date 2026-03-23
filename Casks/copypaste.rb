@@ -1,6 +1,6 @@
 cask "copypaste" do
   version "2.1.5"
-  sha256 "a6e7a2c545cad84962e80be416cd8f6dba01551636890b6904abdb5894f0f584"
+  sha256 "db1da434e0e8982048a3738f918debe98a72750b9f5bd31b8f4a94b5f2ddd3a7"
 
   url "https://github.com/rgdevment/CopyPaste/releases/download/v2.1.5/CopyPaste_2.1.5_universal.dmg"
   name "CopyPaste"
