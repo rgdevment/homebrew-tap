@@ -1,8 +1,8 @@
 cask "copypaste" do
-  version "2.2.1"
-  sha256 "6d671d38d1770da10f13cda90eb93c82dfdc3587041c082456c94520c707a5fe"
+  version "2.2.2"
+  sha256 "391fa897568cb14caeaa321561c29faaba4ccb5accfcb1a6c36960dd0adecb86"
 
-  url "https://github.com/rgdevment/CopyPaste/releases/download/v2.2.1/CopyPaste_2.2.1_universal.dmg"
+  url "https://github.com/rgdevment/CopyPaste/releases/download/v2.2.2/CopyPaste_2.2.2_universal.dmg"
   name "CopyPaste"
   desc "Clipboard history manager for macOS"
   homepage "https://github.com/rgdevment/CopyPaste"
