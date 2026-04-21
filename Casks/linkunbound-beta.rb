@@ -1,8 +1,8 @@
 cask "linkunbound-beta" do
-  version "1.1.0-beta.2"
-  sha256 "5d07ed7a6ac1ced904b174684f23718f9d8231dd53622611bdaa23d8f79e852f"
+  version "1.1.0-beta.3"
+  sha256 "2cbc68a45e94a534bcdcded18394245db83f44c65b1d97186b909896eba867c0"
 
-  url "https://github.com/rgdevment/LinkUnbound/releases/download/v1.1.0-beta.2/LinkUnbound_1.1.0-beta.2_universal.dmg"
+  url "https://github.com/rgdevment/LinkUnbound/releases/download/v1.1.0-beta.3/LinkUnbound_1.1.0-beta.3_universal.dmg"
   name "LinkUnbound"
   desc "Smart browser router for HTTP(S) links (beta)"
   homepage "https://github.com/rgdevment/LinkUnbound"
