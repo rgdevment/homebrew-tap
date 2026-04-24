@@ -1,23 +1,17 @@
-  cask "copypaste-beta" do
-    version "2.0.0-RC.1"
-    sha256 "c378d05ecfdf2e2a10e83d21150d19244165aa84522e05fe81dcf4d9d85b8aba"
+cask "copypaste-beta" do
+  version "2.3.0-beta.1"
+  sha256 "5c773d5d1e1049328ebc19039fe2cd2c17cc06c4f5da4fa693861ab96e7545e9"
 
-    url "https://github.com/rgdevment/CopyPaste/releases/download/v2.0.0-RC.1/CopyPaste_2.0.0-RC.1_arm64.dmg"
-    name "CopyPaste"
-    desc "Clipboard history manager for macOS (beta)"
-    homepage "https://github.com/rgdevment/CopyPaste"
+  url "https://github.com/rgdevment/CopyPaste/releases/download/v2.3.0-beta.1/CopyPaste_2.3.0-beta.1_universal.dmg"
+  name "CopyPaste"
+  desc "Clipboard history manager for macOS (beta)"
+  homepage "https://github.com/rgdevment/CopyPaste"
 
-    depends_on macos: ">= :ventura"
+  depends_on macos: ">= :ventura"
 
-    on_arm do
-      app "CopyPaste.app"
-    end
+  app "CopyPaste.app"
 
-    on_intel do
-      odie "CopyPaste only supports Apple Silicon (ARM) Macs."
-    end
-
-    zap trash: [
-      "~/Library/Application Support/com.rgdevment.copypaste",
-    ]
-  end
+  zap trash: [
+    "~/Library/Application Support/com.rgdevment.copypaste",
+  ]
+end
