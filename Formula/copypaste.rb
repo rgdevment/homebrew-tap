@@ -5,7 +5,7 @@ class Copypaste < Formula
 
   on_linux do
     url "https://github.com/rgdevment/CopyPaste/releases/download/v2.4.0/CopyPaste_2.4.0_amd64.deb"
-    sha256 "4726b12544dc7033a6984160e2084280c3a240d2403d124eb64a5057008f89f0"
+    sha256 "cf4f50fbbc18c3caeaf564ad4e5232eee4580684fb6618daabb673f1fe14cb28"
   end
 
   bottle :unneeded
