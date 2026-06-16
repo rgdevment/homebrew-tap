@@ -1,11 +1,11 @@
 class Copypaste < Formula
   desc "Clipboard history manager"
   homepage "https://github.com/rgdevment/CopyPaste"
-  version "2.6.3"
+  version "2.7.0"
 
   on_linux do
-    url "https://github.com/rgdevment/CopyPaste/releases/download/v2.6.3/CopyPaste_2.6.3_amd64.deb"
-    sha256 "3ddaa83efeaa91a4202065297254d74922575410ad8bf2e3d7af57ccfe524cc4"
+    url "https://github.com/rgdevment/CopyPaste/releases/download/v2.7.0/CopyPaste_2.7.0_amd64.deb"
+    sha256 "8e3c5b768f97a2003585ca70f051198e457d65c346de449c5f737a9b4639e8d0"
   end
 
   bottle :unneeded
