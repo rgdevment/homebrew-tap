@@ -7,7 +7,7 @@ cask "copypaste" do
   desc "Clipboard history manager for macOS"
   homepage "https://github.com/rgdevment/CopyPaste"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "CopyPaste.app"
 

@@ -7,7 +7,7 @@ cask "linkunbound-beta" do
   desc "Smart browser router for HTTP(S) links (beta)"
   homepage "https://github.com/rgdevment/LinkUnbound"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "LinkUnbound.app"
 
