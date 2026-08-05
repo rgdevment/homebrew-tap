@@ -1,6 +1,7 @@
 class CopypasteLinux < Formula
   desc "Clipboard history manager"
   homepage "https://github.com/rgdevment/CopyPaste"
+  license "GPL-3.0-only"
   version "2.8.0"
 
   on_linux do
