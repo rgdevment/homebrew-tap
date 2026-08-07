@@ -2,18 +2,18 @@ class TistyBeta < Formula
   desc "Local, private task manager whose archive is the point (beta)"
   homepage "https://github.com/rgdevment/Tisty"
   license "AGPL-3.0-only"
-  version "0.1.0-rc2"
+  version "0.1.0-rc3"
 
   conflicts_with "tisty", because: "both install the same binary"
 
   on_macos do
-    url "https://github.com/rgdevment/Tisty/releases/download/v0.1.0-rc2/tisty-0.1.0-rc2-macos-universal.tar.gz"
-    sha256 "2b976a001008c841a87ef195b9d0576144732352827f19a9a3c198b26d239ede"
+    url "https://github.com/rgdevment/Tisty/releases/download/v0.1.0-rc3/tisty-0.1.0-rc3-macos-universal.tar.gz"
+    sha256 "bb8c40b5b3bc58508c6617855f89fcae86be7160ac8541639ad977c245b6a68c"
   end
 
   on_linux do
-    url "https://github.com/rgdevment/Tisty/releases/download/v0.1.0-rc2/tisty-0.1.0-rc2-linux-x86_64.tar.gz"
-    sha256 "cd6b497eb69bd0c3d1a031810f0f0b4841093cd04636f2cde0938de922f194e1"
+    url "https://github.com/rgdevment/Tisty/releases/download/v0.1.0-rc3/tisty-0.1.0-rc3-linux-x86_64.tar.gz"
+    sha256 "2020633f1f1dae365dc0f9c4fe20de1d84ad549a09ffbdc3557eb2a02fb4ebc4"
   end
 
   def install
