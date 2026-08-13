@@ -1,8 +1,8 @@
 cask "tisty-beta" do
-  version "0.2.0-rc3"
-  sha256 "e6c4fadf7e2792ce7de3c7b40b5b409b9e9ace04dcd38df75ef4747aa82f4fa4"
+  version "0.2.0-rc8"
+  sha256 "2624be5f393d3456644dd69d51b202ea963f88a3fbb3dd56b7dadd560cd4237c"
 
-  url "https://github.com/rgdevment/Tisty/releases/download/v0.2.0-rc3/tisty-installer-0.2.0-rc3-macos-universal.dmg"
+  url "https://github.com/rgdevment/Tisty/releases/download/v0.2.0-rc8/tisty-installer-0.2.0-rc8-macos-universal.dmg"
   name "Tisty"
   desc "Local, private task manager whose archive is the point (beta)"
   homepage "https://github.com/rgdevment/Tisty"
