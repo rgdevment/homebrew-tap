@@ -2,15 +2,15 @@ class TistyCli < Formula
   desc "Command line for Tisty, the local task manager"
   homepage "https://github.com/rgdevment/Tisty"
   license "AGPL-3.0-only"
-  version "0.13.0"
+  version "1.0.0"
 
   # The app carries this same binary, so having both is having two.
   conflicts_with formula: "tisty-cli-beta"
 
   # Linux is a phase of its own and is not built yet.
   on_macos do
-    url "https://github.com/rgdevment/Tisty/releases/download/v0.13.0/tisty-cli-0.13.0-macos-universal.tar.gz"
-    sha256 "5d9411fa8d4d4ee4c450a3ca85962af5d95d0224bd6fe88ce4ebda25a12c41b3"
+    url "https://github.com/rgdevment/Tisty/releases/download/v1.0.0/tisty-cli-1.0.0-macos-universal.tar.gz"
+    sha256 "f8f5871ec1083f728aef0c1c4753b61255b815503319fbadd24ffdc94219e01e"
   end
 
   def install
