@@ -1,6 +1,6 @@
 cask "tisty" do
   version "1.13.0"
-  sha256 "8f75bb821129533901377ead126cc24867632222fd00ea6d593644a9d6840022"
+  sha256 "9fcc5f3b771ce6a6a382227781583517fa8d02ee3b97553d11f0ce35c229c5ec"
 
   url "https://github.com/rgdevment/Tisty/releases/download/v1.13.0/tisty-installer-1.13.0-macos-universal.dmg"
   name "Tisty"

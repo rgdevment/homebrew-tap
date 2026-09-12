@@ -10,7 +10,7 @@ class TistyCli < Formula
   # Linux is a phase of its own and is not built yet.
   on_macos do
     url "https://github.com/rgdevment/Tisty/releases/download/v1.13.0/tisty-cli-1.13.0-macos-universal.tar.gz"
-    sha256 "a320da403c1395bf0bf347a104cc8757f138027ec9d1a716419dfce2a67b320a"
+    sha256 "70eb8d313bcdaee741ef92703c0713692f53e5a1566a7329910fdf2acecc0d7c"
   end
 
   def install
