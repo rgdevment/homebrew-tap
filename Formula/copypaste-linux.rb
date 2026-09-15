@@ -1,13 +1,15 @@
 class CopypasteLinux < Formula
   desc "Clipboard history manager"
   homepage "https://github.com/rgdevment/CopyPaste"
-  license "GPL-3.0-only"
+  url "https://github.com/rgdevment/CopyPaste/releases/download/v2.11.0/CopyPaste_2.11.0_amd64.deb"
   version "2.11.0"
+  sha256 "0290d28d4abe47f3ea7f00452a4631dc27f6b2c7e1192a355f6b842f6edaedfd"
+  license "GPL-3.0-only"
 
-  on_linux do
-    url "https://github.com/rgdevment/CopyPaste/releases/download/v2.11.0/CopyPaste_2.11.0_amd64.deb"
-    sha256 "0290d28d4abe47f3ea7f00452a4631dc27f6b2c7e1192a355f6b842f6edaedfd"
-  end
+  # Kept on purpose: whoever installed it before v2.11.0 still needs a reinstall path.
+  deprecate! date: "2026-08-27", because: "no longer ships Linux builds after v2.11.0"
+
+  depends_on :linux
 
   def install
     system "ar", "x", cached_download
