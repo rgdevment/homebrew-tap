@@ -1,19 +1,23 @@
 cask "tisty-beta" do
-  version "0.2.0-rc8"
-  sha256 "2624be5f393d3456644dd69d51b202ea963f88a3fbb3dd56b7dadd560cd4237c"
+  arch arm: "aarch64", intel: "x86_64"
 
-  url "https://github.com/rgdevment/Tisty/releases/download/v0.2.0-rc8/tisty-installer-0.2.0-rc8-macos-universal.dmg"
+  version "1.18.0-rc.1"
+  sha256 arm:   "179827adc1940e9368e24ee9e5b48fcd5a1b69b8001d673c3310521d72e4a34c",
+         intel: "fe78b136666f931b3cdd9e7831b4832f7c5bce714c9c0b4dd7649994af44aedd"
+
+  url "https://github.com/rgdevment/Tisty/releases/download/v1.18.0-rc.1/tisty-installer-1.18.0-rc.1-macos-#{arch}.dmg"
   name "Tisty"
-  desc "Local, private task manager whose archive is the point (beta)"
+  desc "Notes, documents and tasks, all local, no subscription, no telemetry (beta)"
   homepage "https://github.com/rgdevment/Tisty"
+
+  auto_updates true
 
   conflicts_with cask: "tisty"
   depends_on macos: :ventura
 
   app "Tisty.app"
 
-  # The command line travels inside the app; Settings puts it within
-  # reach. The tisty-cli formula is for whoever wants only that.
+  # The command line travels inside the app, as the assistant's door.
   zap trash: [
     "~/Library/Application Support/dev.rgdevment.tisty",
     "~/Library/Caches/dev.rgdevment.tisty",
