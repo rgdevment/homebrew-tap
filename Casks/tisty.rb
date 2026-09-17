@@ -1,8 +1,8 @@
 cask "tisty" do
-  version "1.15.1"
-  sha256 "d07bf571e1e939710d685112db9fcbe5e582ec28cc5a2d8f560718786c6fd3ec"
+  version "1.16.0"
+  sha256 "a4f96eb54adc6eada9a0ecbcd935e26384cddb1ef2725f0f17e5159cb706709e"
 
-  url "https://github.com/rgdevment/Tisty/releases/download/v1.15.1/tisty-installer-1.15.1-macos-universal.dmg"
+  url "https://github.com/rgdevment/Tisty/releases/download/v1.16.0/tisty-installer-1.16.0-macos-universal.dmg"
   name "Tisty"
   desc "Local, private task manager whose archive is the point"
   homepage "https://github.com/rgdevment/Tisty"
@@ -14,8 +14,7 @@ cask "tisty" do
 
   app "Tisty.app"
 
-  # The command line travels inside the app; Settings puts it within
-  # reach. The tisty-cli formula is for whoever wants only that.
+  # The command line travels inside the app, as the assistant's door.
   zap trash: [
     "~/Library/Application Support/dev.rgdevment.tisty",
     "~/Library/Caches/dev.rgdevment.tisty",
