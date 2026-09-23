@@ -1,9 +1,9 @@
 class TistyCliBeta < Formula
-  desc "Command line for Tisty, the local task manager (beta)"
+  desc "Command line for Tisty: maintenance, and the door for an assistant (beta)"
   homepage "https://github.com/rgdevment/Tisty"
-  url "https://github.com/rgdevment/Tisty/releases/download/v0.2.0-rc8/tisty-cli-0.2.0-rc8-macos-universal.tar.gz"
-  version "0.2.0-rc8"
-  sha256 "acecaec1a9bc2bf686d92bdafa17e7e6a1e27b0a036282a4e28fe3bc1e1117aa"
+  url "https://github.com/rgdevment/Tisty/releases/download/v1.20.1-rc.1/tisty-cli-1.20.1-rc.1-macos-universal.tar.gz"
+  version "1.20.1-rc.1"
+  sha256 "44f5a692300d70f9e63ffd84a322c76c463afcf0c45c8b5f43602736519d0e4e"
   license "AGPL-3.0-only"
 
   depends_on :macos

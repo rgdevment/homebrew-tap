@@ -1,11 +1,11 @@
 cask "tisty-beta" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "1.18.0-rc.1"
-  sha256 arm:   "179827adc1940e9368e24ee9e5b48fcd5a1b69b8001d673c3310521d72e4a34c",
-         intel: "fe78b136666f931b3cdd9e7831b4832f7c5bce714c9c0b4dd7649994af44aedd"
+  version "1.20.1-rc.1"
+  sha256 arm:   "1073292f9b681e52065a84396c596afc255ced5033a214ab86ca4a18cd1e1d78",
+         intel: "0dd1b7928638961c51763ccaca37313560b0fd9c9e6cb791bf788d61384e39fc"
 
-  url "https://github.com/rgdevment/Tisty/releases/download/v1.18.0-rc.1/tisty-installer-1.18.0-rc.1-macos-#{arch}.dmg"
+  url "https://github.com/rgdevment/Tisty/releases/download/v1.20.1-rc.1/tisty-installer-1.20.1-rc.1-macos-#{arch}.dmg"
   name "Tisty"
   desc "Notes, documents and tasks, all local, no subscription, no telemetry (beta)"
   homepage "https://github.com/rgdevment/Tisty"
@@ -14,6 +14,11 @@ cask "tisty-beta" do
 
   conflicts_with cask: "tisty"
   depends_on macos: :ventura
+
+  caveats <<~TEXT
+    Tisty needs macOS 13.3 or newer. Homebrew can only check for 13,
+    so on 13.0 to 13.2 it installs and then will not open.
+  TEXT
 
   app "Tisty.app"
 
