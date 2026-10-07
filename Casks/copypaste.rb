@@ -1,11 +1,11 @@
 cask "copypaste" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "3.1.2"
-  sha256 arm:   "9c82836f2de7ae982ac8298056a0236e4370d59f70836215804ff7e9a69faeb4",
-         intel: "89f3384a43da8e85336be410a5833bdff9388789333be00bad04b0a451ed212c"
+  version "3.1.3"
+  sha256 arm:   "995605b7bf57b59fec0715178c570c360644781725e0927a8a414abce80c5f61",
+         intel: "64adb49f6a9c75356019d81ee775bcb802b9492b362650e8870889b4dd6e08f1"
 
-  url "https://github.com/rgdevment/CopyPaste/releases/download/v3.1.2/copypaste-installer-3.1.2-macos-#{arch}.dmg"
+  url "https://github.com/rgdevment/CopyPaste/releases/download/v3.1.3/copypaste-installer-3.1.3-macos-#{arch}.dmg"
   name "CopyPaste"
   desc "Clipboard history that stays on your machine"
   homepage "https://rgdevment.com/copypaste/"
