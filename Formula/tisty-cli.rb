@@ -1,9 +1,9 @@
 class TistyCli < Formula
   desc "Command line for Tisty: maintenance, and the door for an assistant"
   homepage "https://www.tisty.app/"
-  url "https://github.com/rgdevment/Tisty/releases/download/v1.30.3/tisty-cli-1.30.3-macos-universal.tar.gz"
-  version "1.30.3"
-  sha256 "3948a4154766f7e9233f34a9cf59c78ad92a70c32eefb35c3a10ff2f41857ffc"
+  url "https://github.com/rgdevment/Tisty/releases/download/v1.30.4/tisty-cli-1.30.4-macos-universal.tar.gz"
+  version "1.30.4"
+  sha256 "dca214c7b18795ee7efa9ff6ad564cf37761756c21ce2f32f5e449d963913a7d"
   license "AGPL-3.0-only"
 
   depends_on :macos
