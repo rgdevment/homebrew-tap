@@ -13,7 +13,7 @@ cask "copanda" do
 
   auto_updates true
 
-  conflicts_with cask: ["copanda-beta", "copypaste-beta"]
+  conflicts_with cask: "copanda-beta"
   depends_on macos: :ventura
 
   app "CoPanda.app"
@@ -25,4 +25,9 @@ cask "copanda" do
     "~/Library/Preferences/com.rgdevment.copypaste.plist",
     "~/Library/Saved Application State/com.rgdevment.copypaste.savedState",
   ]
+
+  caveats <<~EOS
+    CopyPaste is now CoPanda: the same app, with your history, settings and
+    shortcut. Look for CoPanda in your Applications folder.
+  EOS
 end
