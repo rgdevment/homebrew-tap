@@ -1,11 +1,11 @@
 cask "copanda" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "3.2.0"
-  sha256 arm:   "a6645160c1ac72853411489122885431c224b9d2f0890720d84a468bc38abd10",
-         intel: "252dacf9c6119a92399d09ebb0ca4c2c143387d5bf0a23569f9a739e43c76d87"
+  version "3.2.1"
+  sha256 arm:   "95adfa1145094334dcfee28f0a3ad95e2cf56cf4a0fa69ae4241c067447257fd",
+         intel: "73c74cad2d1d70c9657719c9a0cc4a249c591907a5ea575b327b2e2fe99b5b38"
 
-  url "https://github.com/rgdevment/CopyPaste/releases/download/v3.2.0/copanda-installer-3.2.0-macos-#{arch}.dmg"
+  url "https://github.com/rgdevment/CopyPaste/releases/download/v3.2.1/copanda-installer-3.2.1-macos-#{arch}.dmg"
   name "CoPanda"
   name "CopyPaste"
   desc "Clipboard history that stays on your machine"
@@ -13,7 +13,7 @@ cask "copanda" do
 
   auto_updates true
 
-  conflicts_with cask: "copanda-beta"
+  conflicts_with cask: ["copanda-beta"]
   depends_on macos: :ventura
 
   app "CoPanda.app"
@@ -27,7 +27,7 @@ cask "copanda" do
   ]
 
   caveats <<~EOS
-    CopyPaste is now CoPanda: the same app, with your history, settings and
-    shortcut. Look for CoPanda in your Applications folder.
+    CoPanda was called CopyPaste until 3.2. Coming from it, your history,
+    settings and shortcut carry over, and the app is CoPanda in Applications.
   EOS
 end
