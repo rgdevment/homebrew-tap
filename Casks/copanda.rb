@@ -1,11 +1,11 @@
 cask "copanda" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "3.2.2"
-  sha256 arm:   "541df99599bbf9258a891736ca85c9b099c693fe524992b58cf4dd46339d9dae",
-         intel: "28d384d04e79b7b33e22ea0ea04db60322203a6078d543064485c942344e6b40"
+  version "3.3.0"
+  sha256 arm:   "a560976d13e55ad11d7696857eff9ec2759f8341c5d0705a23c0fd1e5fe46597",
+         intel: "6f39acb014bc50d3f4cfe3be07dad6b6a7d87df394016b99857cb7d27bd6641b"
 
-  url "https://github.com/rgdevment/CopyPaste/releases/download/v3.2.2/copanda-installer-3.2.2-macos-#{arch}.dmg"
+  url "https://github.com/rgdevment/CopyPaste/releases/download/v3.3.0/copanda-installer-3.3.0-macos-#{arch}.dmg"
   name "CoPanda"
   name "CopyPaste"
   desc "Clipboard history that stays on your machine"
