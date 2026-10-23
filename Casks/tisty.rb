@@ -1,11 +1,11 @@
 cask "tisty" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "1.32.0"
-  sha256 arm:   "8c426d74b78264d5ccee2564d3b4b4cb16e759d19e49f9cf556058b3de387d9f",
-         intel: "117036e31f77f0a3063b2f34c0cb2d97174c13da8887df92097f33344ce468df"
+  version "1.32.1"
+  sha256 arm:   "1955b983d73ca36c4e838ffb5d763167aad0cd726d36ca31c2a7536152efe9d5",
+         intel: "7272d2b595f225630fc1a46314603f30820dbc8074a805f7d5b184819f60eea6"
 
-  url "https://github.com/rgdevment/Tisty/releases/download/v1.32.0/tisty-installer-1.32.0-macos-#{arch}.dmg"
+  url "https://github.com/rgdevment/Tisty/releases/download/v1.32.1/tisty-installer-1.32.1-macos-#{arch}.dmg"
   name "Tisty"
   desc "Notes, documents and tasks, all local, no subscription, no telemetry"
   homepage "https://www.tisty.app/"
@@ -21,6 +21,7 @@ cask "tisty" do
   TEXT
 
   app "Tisty.app"
+  binary "#{appdir}/Tisty.app/Contents/MacOS/tisty"
 
   # The command line travels inside the app, as the assistant's door.
   zap trash: [
