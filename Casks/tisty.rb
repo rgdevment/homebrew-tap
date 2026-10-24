@@ -1,11 +1,11 @@
 cask "tisty" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "1.33.0"
-  sha256 arm:   "e7262203bc118c6823967ba39640e8d48b09b8fafcd5b2892b24475b8a115f55",
-         intel: "5e64de1169cbc58a3823d64a48f7873e9f8f9278ea02d481a84c4b36cf1e0a13"
+  version "1.34.0"
+  sha256 arm:   "1604f6bb02c8c3bd0a1c0123534a3ab2cb3413884e91b8f858a2aac17678eb95",
+         intel: "78446857e3b6590985d4ca8adaa4d17a71c02b456e28977c4d36df84c8393e63"
 
-  url "https://github.com/rgdevment/Tisty/releases/download/v1.33.0/tisty-installer-1.33.0-macos-#{arch}.dmg"
+  url "https://github.com/rgdevment/Tisty/releases/download/v1.34.0/tisty-installer-1.34.0-macos-#{arch}.dmg"
   name "Tisty"
   desc "Notes, documents and tasks, all local, no subscription, no telemetry"
   homepage "https://www.tisty.app/"
