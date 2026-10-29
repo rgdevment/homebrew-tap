@@ -1,9 +1,9 @@
 cask "tisty" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "1.39.0"
-  sha256 arm:   "cc2b03f9e8bffba7a9a3afc6c63fdb0e2131cca576cf2350f1aeec46773d63c7",
-         intel: "ffdc774df6bc20140821c9f450737be62f0e956cc49402d054fea00553c5291f"
+  version "1.39.1"
+  sha256 arm:   "476be528cb87c0bf1d5b09924559eb1e29b69525ef996f00e80b82d51e8f2f1f",
+         intel: "1f3ee7efcbade456cf8a194132d309dd57cd50fcb70b4dfbaec5b4072e5a180f"
 
   url "https://github.com/rgdevment/Tisty/releases/download/v#{version}/tisty-installer-#{version}-macos-#{arch}.dmg"
   name "Tisty"
