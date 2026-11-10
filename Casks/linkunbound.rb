@@ -1,11 +1,11 @@
 cask "linkunbound" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "2.9.0"
-  sha256 arm:   "edf493bc1189e8dda7ace83e2c8a0c5dac3c1a10ba3971a78ee7678e1ae95bc5",
-         intel: "44a6b9afa5e5ed11f5e0dfdb78f7e0c160ae542abda8f0e84aa46458a6dde4cf"
+  version "2.10.0"
+  sha256 arm:   "73e2bfa9bb7d242581a497a6837122d0d6d887835a5aa793617dd615ea5e49ab",
+         intel: "b4987eeb5e707d8858442838bbfe45fd8b3bef2bfbaacceff1ae0699b1b1b5e4"
 
-  url "https://github.com/rgdevment/LinkUnbound/releases/download/v2.9.0/linkunbound-installer-2.9.0-macos-#{arch}.dmg"
+  url "https://github.com/rgdevment/LinkUnbound/releases/download/v2.10.0/linkunbound-installer-2.10.0-macos-#{arch}.dmg"
   name "LinkUnbound"
   desc "Browser picker that asks which browser opens each link"
   homepage "https://www.linkunbound.app"
